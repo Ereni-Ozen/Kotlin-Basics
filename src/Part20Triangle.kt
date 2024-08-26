@@ -14,6 +14,6 @@ class trianglesAreaAndPeremeters(
 
     fun perimeter() = firstSideOfTriangle + secondSideOfTriangle + thirdSideOfTriangle
 
-    fun area() = sqrt((perimeter() / 2) * (perimeter() / 2 - a) * (perimeter() / 2 - b) * (perimeter() / 2 - c))
+    fun area() = sqrt((perimeter() / 2) * (perimeter() / 2 - firstSideOfTriangle) * (perimeter() / 2 - secondSideOfTriangle) * (perimeter() / 2 - thirdSideOfTriangle))
 
 }
